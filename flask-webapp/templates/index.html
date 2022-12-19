@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="{{url_for('static',filename='css/menu.css')}}">
+<body>
+    <div id="response-container">
+        <div class="chat-bubble left">
+    Welcome to The NLP Restaurant, How can I help you?
+        </div>
+    </div>
+    <br>
+<form id="prompt-form">
+      <input type="text" id="text-prompt"><br>
+      <button type="submit" id="submit-button">Submit</button>
+</form>
+
+    <script src="{{url_for('static',filename='js/response.js')}}"></script>
+
+  </body>

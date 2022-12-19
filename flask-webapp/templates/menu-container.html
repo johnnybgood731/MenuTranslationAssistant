@@ -1,0 +1,15 @@
+<div class="menu-grid">
+{% for key,item in items.iterrows() %}
+    <div class="menu-item" onclick="add_to_order('{{item.Dish}}')">
+      <img src="{{url_for('static',filename='images/'+item['Item Code']+'.jpg')}}" alt="{{item['Dish']}}">
+        <div class="menu-item-name">{{item['Dish']}}</div>
+
+        <div class="menu-item-description">
+        <h3>{{item["Dish"]}}</h3>
+        <p>{{item["Description"]}}</p>
+            <div class="menu-item-price">${{item['Price']}}</div>
+        </div>
+    </div>
+{% endfor %}
+
+</div>

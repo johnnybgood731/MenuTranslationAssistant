@@ -1,0 +1,23 @@
+<div class = "cart-grid">
+  <div class="cart-header">
+    <h3>Your Order:</h3>
+  </div>
+  {% for item in cart %}
+  <div class="cart-item">
+    <div class="cart-item-thumbnail">
+      <img class="cart-img" src="{{url_for('static',filename='images/'+item['Item Code']+'.jpg')}}">
+    </div>
+    <div class="cart-description-box">
+      <h3>{{item.Dish}}</h3>
+      <p>Quantity: {{item.Quantity}}</p>
+      <button class="cart-item-remove" onclick='remove_from_order("{{item.Dish}}", "{{item.Quantity}}")' c>REMOVE</button>
+    </div>
+    <div class="cart-item-total">
+      ${{item.Price}}
+    </div>
+  </div>
+  {% endfor %}
+  <button class="cart-checkout" type="button" onclick="checkout()">
+    <h3>CHECKOUT {{"$%.2f"|format(total)}}</h3>
+  </button>
+</div>

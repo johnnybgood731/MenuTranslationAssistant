@@ -1,0 +1,289 @@
+body {
+  padding: 0 20px;
+  background: aliceblue;
+  font-family: roboto;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3
+{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+/*
+*
+*  Checkout Cart
+*
+*/
+.cart-header
+{
+  width: 100%;
+  margin: 2px 0;
+  border-bottom: lightgrey 1px solid;
+}
+.cart-grid {
+  width: 75%;
+  margin-right:auto;
+  margin-left: auto;
+}
+
+.cart-item{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 15px 0;
+  margin: 2px 0;
+  border-bottom: lightgrey 1px solid;
+}
+
+.cart-item-thumbnail {
+  width: 140px;
+  height: 140px;
+  padding: 5px;
+}
+
+.cart-img{
+  border-radius: 3px;
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+
+}
+
+.cart-description-box
+{
+  flex: 1;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-item-total
+{
+  padding: 5px;
+  font-size: .875em;
+  font-weight: 600;
+}
+
+button.cart-item-remove
+{
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: min-content;
+}
+button.cart-item-remove:hover {
+    background-color: #e53935;
+  }
+.cart-checkout
+{
+  color: #fff;
+  background-color: dodgerblue;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.cart-checkout:hover
+{
+  background-color: #1981e7;
+}
+/*
+*
+*  Menu Query Response
+*
+*/
+.menu-grid {
+  grid-auto-flow: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.menu-item {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.menu-item:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu-item-name {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.menu-item-price {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-weight: bold;
+}
+
+.menu-item-description {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.menu-item:hover .menu-item-description {
+  display: block;
+}
+
+.menu-item-description h3 {
+  margin-top: 0;
+}
+
+.menu-item-description p {
+  margin-bottom: 0;
+}
+
+/*
+*
+*  Input Submission form
+*
+*/
+form {
+
+  display: flex;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border: none;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #4caf50; /* green color */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button[type="submit"]:hover
+{
+  background-color: #43a047;
+}
+
+#response-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 4px;
+  overflow: hidden;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 20px;
+}
+/*
+*
+*  Chat Bubbles
+*
+*/
+.chat-bubble {
+  margin: fill;
+  clear:both;
+  position: relative;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chat-bubble:before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  right: 100%;
+  border: 6px solid transparent;
+  border-right-color: palegreen;
+}
+
+.chat-bubble.right {
+  float: right;
+  background-color: lightblue;
+  margin-left: auto;
+}
+
+.chat-bubble.right:before {
+  right: auto;
+  left: 100%;
+  border-right-color: transparent;
+  border-left-color: lightblue;
+}
+
+.chat-bubble.left {
+  float: left;
+  margin-right: auto;
+  background-color: palegreen;
+}
+
+.chat-bubble.left:after
+{
+  left: auto;
+  right: 100%;
+  border-left-color: transparent;
+  border-right-color: palegreen;
+}

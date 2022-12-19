@@ -1,0 +1,119 @@
+﻿ID,Item Code,Dish,菜品,Description,Price
+1,C1,Sichuan Pickled Vegetables,四川泡菜,"Pickled vegetables, Sichuan style",2.95
+2,C2,Beef and Ox Shanks in Hot Chili Oil,夫妻肺片,Thin slices of beef shanks & tendons in,10.95
+3,C3,Steamed Chicken in Hot Chili Oil,口水鸡,Steamed chicken in hot chili oil (served cold),8.95
+4,C4,Sichuan Style Spicy Cold Noodles,四川凉面,Sichuan style spicy cold noodles,9.95
+5,C5,Tossed Clear Noodles in Hot Chili Oil,川北涼粉,Tossed clear noodles in hot chili oil,8.95
+6,C6,Wood ear Mushroom with Pickled Pepper,山椒木耳,"Mushroom with pickled pepper, onion, cilantro",9.95
+7,A1,Hot and Sour Rice Noodles,酸辣粉,Hot and sour rice noodles,7.95
+8,A2,Xiao-long-bao,小笼汤包,Soup dumplings with pork,10.95
+9,A3,Steamed Pork Dumplings,菜肉蒸饺,Ground pork & vegetable filling,7.95
+10,A4,Steamed Vegetable Dumplings,花素蒸餃,Mushrooms & vegetable filling,8.95
+11,A5,Pot Stickers,锅贴,Pan fried pork dumplings,8.95
+12,A6,Wonton in Hot Chili Oil,红油抄手,Pork wonton in hot chili oil,8.95
+13,A7,Scallions Pancake,蔥油饼,Savory non-leavened flatbread with scallions (green onions),3.95
+14,A8,Pan Seared Green Chili Pepper,虎皮尖椒,Sichuan style pan-seared green chili pepper,7.95
+15,A9,Lettuce Wraps with Choice Meat,生菜包肉松,"Choice of minced Chicken, minced Pork",8.95
+16,A10,Lettuce Wraps with Shrimp,生菜包虾松,Lettuce Wraps with Shrimp,9.95
+17,P1,Diced Chicken with Chili and Pepper,辣子鸡丁,"Sautéed diced chicken with chili & pepper, Sichuan Style",14.95
+18,P2,Kun Pao Chicken,宮保鸡丁,"Spicy stir-fried chicken, peanuts, and chili peppers",12.95
+19,P3,Sweet and Sour Chicken,甜酸鸡块,Chicken in sweet and sour sauce,10.95
+20,P4,Crunchy Sesame Chicken,芝麻鸡块,Fried chicken nuggets with sesame seeds,10.95
+21,P5,Honey Glazed Chicken,蜜汁鸡块,Stir-fried chicken with honey,10.95
+22,P6,General Tso's Chicken,左宗鸡块,"Sweet, slightly spicy, deep-fried chicken",10.95
+23,P7,Chicken in Yu xiang Sauce,鱼香鸡片,Stir-fried chicken in yu-shiang sauce,12.95
+24,P8,Chicken with Broccoli,芥蓝鸡,Stir-fried chicken with broccoli,11.95
+25,P9,Chicken in Black Bean Sauce,豆豉鸡片,Braised chicken in black bean sauce,11.95
+26,P10,Village Chicken,山乡鸡,"Sautéed bone-in chicken with chili & pepper, Sichuan Style",14.95
+27,P11,Dry Braised Chicken,干锅鸡,Dry-braised chicken with fried potatoes and Chinese wood ear mushroom,14.95
+28,P12,Sizzling Chicken in Hot Plate,铁板鸡,Braised chicken with green red pepper and mushrooms,12.95
+29,P13,Smoked Tea Duck,樟茶鸭,Smoke marinated duck over tea leaves and twigs $18.95/Half,18.95
+30,P14,Roast Duck in Beer,啤酒鸭,Braised duck in beer,14.95
+31,P15,Duck with Bamboo Shoots,干锅竹笋鸭,Dry-braised duck with bamboo shoots,14.95
+32,B1,Steak with Onions,蔥爆牛肉,Sautéed flank steak with onions,14.95
+33,B2,Steak with Broccoli,芥蓝牛肉,Sautéed flank steak with broccoli in oyster sauce,14.95
+34,B3,Steak in Hot Chili Oil,水煮牛肉,Sliced steak with cabbage in hot chili oil,16.95
+35,B4,Fried Lamb with Cumin,孜然羊肉,Fried lamb with cumin,16.95
+36,B5,Fried Lamb with Pepper,羊肉小炒,Fried lamb with pepper and cilantro,16.95
+37,B6,Dry Braised Lamb,干锅羊肉,Dry-braised lamb,16.95
+38,B7,Twice-Cooked Pork,回锅肉,Pork belly sautéed in chili hot sauce,12.95
+39,B8,"Fried Spare Ribs, Wuxi Style",无锡排骨,"Stir-fried spare-ribs, melt-in-mouth!",12.95
+40,B9,Pork with Pickled Cabbage,梅菜扣肉,Braised pork belly with pickled mustard cabbage,14.95
+41,B10,Pork and green Chili Pepper,尖椒炒肉丝,Sautéed pork and green chili pepper,12.95
+42,B11,Pork with Dried Tofu,香干肉丝,Shredded pork with dried bean curd,12.95
+43,B12,Pork in Yu xiang Sauce,魚香肉丝,Shredded pork in spicy garlic & ginger sauce,12.95
+44,B13,"Black Pudding, Beef and Tripe",毛血旺,"Duck blood tofu, beef & tripe stew",16.95
+45,B14,Pork Chitterlings and Tofu Hot Pot,五更肠旺,Spicy pork intestine and tofu hot pot,14.95
+46,B15,Pork Chitterlings in Hot Chili Oil,水煮肥肠,Pork intestine in hot chili oil,14.95
+47,B16,Dry Braised Pork Chitterlings,干锅肥肠,Dry-braised pork intestine,14.95
+48,S1,Fish Filets with Tomato and Vegetables,溜魚片,Sautéed fish filets with tomato & vegetables,14.95
+49,S2,Fish in Chili Oil and Bean Sprouts,泼辣魚片,Fish filets in hot chili oil & bean sprouts,15.95
+50,S3,Fish Filets in Hot Chili Oil,水煮魚片,Fish filets in hot chili oil,14.95
+51,S4,Salted and peppered Fish Filets,椒盐魚片,Salted & peppered fish filets,15.95
+52,S5,Fish Filets in Black Bean Sauce,豆豉魚片,Sautéed fish filets in black bean sauce,15.95
+53,S6,Fish Filets with Pickled Pepper,山椒魚片,Sautéed fish filets with pickled pepper & pickled vegetable,15.95
+54,S7,Fish Filets in Soy Bean Paste,豆瓣魚片,Braised fish filets in soy bean paste,14.95
+55,S8,Fish Filets in Sweet and Sour Sauce,糖醋魚片,Fried fish filets with sweet & sour sauce,14.95
+56,S9,"Fish Filets with Tofu, Chili and Pepper",麻辣豆花魚,"Fish filets with tofu, chili and Sichuan pepper",15.95
+57,S10,Assorted Seafood with Crispy Rice,海鮮锅粑,Assorted seafood and chicken white meat with crispy rice,14.95
+58,S11,Braised Tofu with Shrimps,虾仁豆腐,Braised tofu with shrimps,12.95
+59,S12,Sautéed Shrimps with Wine,清炒虾仁,Sautéed shrimps with rice (white) wine,14.95
+60,S13,Kung Pao Shrimps,宮保虾仁,"Spicy stir-fry shrimps, peanuts, vegetables and chili peppers",15.95
+61,S14,Shrimps with Cashew Nuts,腰果虾仁,Sautéed shrimps with cashew nuts,15.95
+62,S15,Shrimps with Broccoli,芥蓝虾仁,Sautéed shrimps with broccoli,15.95
+63,S16,Shrimps with Mixed Vegetables,素菜虾仁,Sautéed shrimps with mixed vegetables,15.95
+64,S17,Salted and peppered Prawns,椒盐虾,Salted & peppered prawns,16.95
+65,S18,Shrimps in Lobster Sauce,虾龙糊,Sautéed shrimps in lobster sauce,14.95
+66,V1,Sautéed Green Beans,干扁四季豆,Stir-fried green beans,10.95
+67,V2,Sautéed Water Spinach and Garlic,蒜炒空心菜,Stir-fried water spinach with garlic | Market Price,Market Price
+68,V3,Water Spinach with Pickled Tofu,豆腐乳炒空心,"Stir-fried water spinach with Chinese ""preserved tofu"" | Market Price",Market Price
+69,V4,Sautéed Chinese Broccoli,清炒芥蓝,Sautéed Chinese broccoli,10.95
+70,V5,Chinese Broccoli in Oyster Sauce,蠔油芥蓝,Stir-fried Chinese broccoli in oyster sauce,11.95
+71,V6,Stir Fried Cabbage,爆炒高丽菜,Stir-fried cabbage,10.95
+72,V7,Stir Fried Pea Sprouts,清炒豆苗,Stir-fried pea sprouts | Market Price,Market Price
+73,V8,Chinese Cabbage with Mushrooms,香菇菜心,Stir-fried Chinese cabbage with mushrooms,11.95
+74,V9,Stir Fried Baby Bok Choy,炒青江菜,Stir-fried baby bok choy,10.95
+75,V10,Kung Pao Chinese Cabbage,宮保白菜,Stir-fried Chinese cabbage and chili peppers,10.95
+76,V11,Potatoes with Green Chili Pepper,尖椒土豆丝,Stir-fried shredded potatoes with green chili pepper,10.95
+77,V12,Home Style Tofu,家常豆腐,Home-style tofu,10.95
+78,V13,Braised Tofu in Hot Chili Oil,香辣豆腐,Braised tofu in hot chili oil,10.95
+79,V14,Mapo Tofu,麻婆豆腐,Tofu in spicy chili and bean-based sauce,10.95
+80,V15,Sauteed Eggplant with Spicy Sauce,干烧茄子,Eggplant on the top with spicy sauce,10.95
+81,V16,Braised Eggplant in Bean Paste,醬燒茄子,Braised eggplant in bean paste,11.95
+82,V17,Eggplant in Yu xiang Sauce,魚香茄子,Eggplant in spicy garlic & ginger sauce,11.95
+83,SP1,Tomato and Egg Drop Soup,蕃茄蛋花汤,Tomato & egg drop soup,6.95
+84,SP2,Vegetable & Tofu Soup,蔬菜豆腐汤,Vegetable & tofu soup,6.95
+85,SP3,Fish with Pickled Vegetable Soup,酸菜魚片汤,Fish fillets with pickled mustard-green soup,12.95
+86,SP4,West Lake Style Beef Soup,西湖牛肉羹,Minced beef soup with egg white,8.95
+87,SP5,Hot and Sour Soup,酸辣烫,"Bamboo shoots, tofu, mushrooms",6.95
+88,SP6,Seafood and Meat in Casserole,什锦砂鍋,Assorted seafood & meat in casserole,19.95
+89,R1,House Special Fried Rice,扬州炒饭,"""Yangzhou"" style with ham and shrimp fried rice",10.95
+90,R2,Chef's Combo Fried Rice,什锦炒饭,Chef's combo fried rice,10.95
+91,R3,Fried Rice (Assorted),各式炒饭,"Beef, Pork, Chicken or Vegetable",8.95
+92,R4,Dan Dan Noodles,担担面,"Chili oil, Sichuan pepper, pork, and scallions served over noodles",8.95
+93,R5,Beef Noodles Soup,牛肉面,"Stewed beef, broth, vegetable and Chinese noodles",9.95
+94,R6,Rice noodles with Pork Soup,酸菜肉丝米粉,"Shredded pork, pickled vege and pickled pepper with rice noodles",9.95
+95,R7,Noodles with Pork & Pickled soup,雪菜肉丝面,"Shredded pork, pickled mustard-green and Chinese noodles",9.95
+96,R8,Lo Mein Noodle (Assorted),各式撈面,"Beef, Pork, Chicken or Vegetable",8.95
+97,R9,Pan Fried Noodles (Seafood),海鮮兩面黃,Pan-fried noodles (assorted seafood and chicken white meat),14.95
+98,R10,Stir Fried Rice Stick with Steak,干炒牛河,Stir-fried rice noodles with flank steak,12.95
+99,R11,Stir-Fried Rice Noodles (Assorted),各式炒米粉,"Beef, Pork, Chicken or Vegetable",8.95
+100,D1,Water,水,,0
+101,D1,Coke,可乐,"Coke,Diet coke, Fonta orange, Sprite, Pibb xtra, Pink lemonade",2.5
+102,D2,Hot Tea,热茶,Hot Tea,2.5
+103,D3,Ice Tea,冰茶,"Unsweet ice tea, sweet ice tea",2.5
+104,D5,Tsingtao,,China,5
+105,D6,Heineken,,Netherlands,5
+106,D7,Corona Extra,,Mexico,5
+107,D8,Sapporo,,Japan,7
+108,D9,Bud Light,,,3.5
+109,D10,Coors Light,,,3.5
+110,D11,Miller Light,,,3.5
+111,D12,Budweiser,,,3.5
+112,D13,Warm Sake,,"9.95/glass, 29.95/bottle",9.95
+113,D14,Cold sake,,,14.95
+114,D15,house wine,,"Chardonnay, white Zinfandel, merlot, Cabernet",5
+115,D16,Kikkoman Plum wine,,,5.5
+116,D17,Sweet Riesling,,,6.95
+117,D18,William Hill Chardonnay,,,6.95
+118,D19,Pinot Grigio,,,6.95
